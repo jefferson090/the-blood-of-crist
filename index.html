@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Lobster">  
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Shadows Into Light">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 
+style="color:#ee1111;
+font-family:Lobster">THE BLOOD OF CRIST</h1>
+<p>The phrase “blood of Christ” is used several times in the New Testament and is the expression of the sacrificial death and full atoning work of Jesus on our behalf. References to the Savior’s blood include the reality that He literally bled on the cross, but more significantly that He bled and died for sinners. The blood of Christ has the power to atone for an infinite number of sins committed by an infinite number of people throughout the ages, and all whose faith rests in that blood will be saved.</p> </p>
+<h3> the blood</h3> 
+  <img src="alsace.jpg"   alt="dog jumping">
+  <P>credits to got questions</P>
+  <ul>
+    <li><a href="index.html">home</a></li>
+    <li><a href="jesus.html">jesus</a></li>
+    <li><a href="blood.html">blood</a></li>
+</ul>
+<p>https://www.bbc.com/news/world-europe-34827497</p>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
